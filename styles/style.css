@@ -9,10 +9,7 @@
   background-color: var(--page-background-color, #000028);
   background-image: var(
     --page-background-image,
-    image-set(
-      url("../images/cover-image.png") 1x,
-      url("../images/cover-image.png") 2x
-    )
+      url("../images/cover-image.png")
   ); 
   background-size: cover;
   background-position: center;
@@ -88,13 +85,15 @@
 }
 .title {
   color: var(--second-color, #ff0070);
-  font-weight: 700;
   font-size: inherit;
   line-height: inherit;
 }
 .title-decor {
   color: var(--highlight-color, #000028);
   background: var(--accent-color, #ff0070);
+}
+.title-decor-block {
+  font-weight: 400;
 }
 .section {
   display: grid;
@@ -146,13 +145,16 @@
   flex-direction: column;
   gap: 12px;
 }
+.shadow-decor-header {
+  text-shadow: 4px 4px 0 var(--accent-color, #ff0070);
+}
 .header__theme-menu-button_active {
   border-color: currentColor;
   cursor: default;
   pointer-events: none;
 }
 .header__theme-menu-button:hover {
-  border-color: var(--second-color-o-40, #ff007040);
+  border-color: var(--second-color-40, #ff007040);
 }
 .header__theme-menu-button:focus {
   outline: 0;
