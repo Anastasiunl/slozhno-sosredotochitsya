@@ -42,7 +42,6 @@
 .decorated-zone::after {
   border-bottom: 1px solid var(--second-color, #ff0070);
   border-left: 1px solid var(--second-color, #ff0070);
-  inset-block-end: 0;
   inset-inline-start: clamp(10px, 0.0286rem + 2.5445vw, 20px);
   inset-block-end: clamp(10px, 0.0286rem + 2.5445vw, 20px);
 }
