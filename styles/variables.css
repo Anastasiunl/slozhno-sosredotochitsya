@@ -25,7 +25,7 @@
   --highlight-color: var(--color-black-1, #000028);
  /* ввожу переменные данных картинок/шрифта */
   --page-font-family: "IBM Plex mono", monospace;
-  --page-background-image: url("../images/cover-image.png");
+  --page-background-image: url("../images/cover-image-dark.png");
   --page-background-color: var(--color-black-1, #000028);
   --rec-decor-visibility: visible;
 }
