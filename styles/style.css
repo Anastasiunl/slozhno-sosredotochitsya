@@ -66,10 +66,11 @@
   z-index: -1;
   margin: 2px 10px 0 0;
   color: var(--accent-color, #ff0070);
-  inset-inline-end: 20px;
-  inset-block-start: 10px;
   line-height: 24px;
   visibility: var(--rec-decor-visibility, visible);
+  margin: auto;
+  inset-inline-end: 28px;
+  inset-block-start: 20px;
 }
 .rec-decor::after {
   content: '';
@@ -231,6 +232,10 @@
   }
 }
   @media (width >= 1024px) {
+    .rec-decor {
+      inset-inline-end: 28px;
+      inset-block-start: 20px;
+    }
     .section {
       column-gap: 30px;
     }
